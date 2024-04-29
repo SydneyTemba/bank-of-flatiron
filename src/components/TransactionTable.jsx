@@ -1,4 +1,4 @@
-// TransactionTable.jsx
+
 import React from 'react';
 
 function TransactionTable({ transactions }) {

@@ -1,8 +1,8 @@
-// App.js
+
 import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
-import SearchBar from './components/SearchBar'; // Corrected import path
+import SearchBar from './components/SearchBar'; 
 import TransactionForm from './components/TransactionForm';
 import TransactionTable from './components/TransactionTable';
 
@@ -41,10 +41,9 @@ function App() {
     setTransactions([...transactions, newTransaction]);
   };
 
-  // Define the handleSearch function
+  
   const handleSearch = (searchTerm) => {
-    // Implement your search logic here
-    // For example, filter the transactions based on the search term
+    
     const filteredTransactions = goods.filter(transaction =>
       transaction.Description.toLowerCase().includes(searchTerm.toLowerCase())
     );
