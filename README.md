@@ -25,8 +25,8 @@ https://github.com/SydneyTemba/bank-of-flatiron.git
 ```
 
 # Live Link
-[Git](gh-pages link)
-https://musical-choux-8d58d7.netlify.app
+
+https://sydneyflatironbank.netlify.app
 
 
 ## Technologies used
